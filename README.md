@@ -34,7 +34,7 @@ CSS is a language that describes the style of HTML
 https://www.w3schools.com/css/
 
 ____________________________________________________________________________________
-## Core Ideas: <br/>
+## Changing the look of your HTML file with CSS: <br/>
 
 ##### To change background:
 ```
@@ -53,19 +53,54 @@ In this background class:
 - The width and Height functions will change the dimensions of your background. 
 
 ##### To change font size and color:
+```
+   .title {
+        font-size: 55px;
+        margin-left: 60px;
+        text-align: center;
+    }
+``` 
+- Font Size: changes the font size of your text
+- color: will change the color of your text (not highlighted in the above example)
+- text-align: 
+- margin-left:
 
-##### To re-center items on card:
+##### Resizing images/pictures:
 
-##### To add more images:
+You might notice that when you change the text of your card, you get a transtition like below: </br>
+
+- image 
 
 
-##### To change images:
+The reason this happens is because currently in our title class, we have hard-coded where the title should go. To prevent this from happening we should make out title card dyanmic, meaning it will change as the card dimenisons or text changes. </br>
+
+
+##### Images:
+```
+   .picture {
+        margin-left: 250px;
+        width: 200px;
+    }
+
+    <img src="https://miro.medium.com/max/2028/1*FugbGxi_jnARy2YbIRPlrQ.png" class="picture">
+
+``` 
+
+- description 
 
 
 ##### Button:
 
+- description 
 
-To find out how to change more items on your card go to  https://www.w3schools.com/
+```
+ <div class="button" onclick="alert('Hello world!')">Click Me! </div>
+```
+
+____________________________________________________________________________________
+## This isn't all! <br/>
+To find out how to change more items on your card go to  https://www.w3schools.com/! 
+There is a lot of helpful tools and examples of how these tools work on this webstie :)
 ____________________________________________________________________________________
 Last Update: Feb 13, 2020
 
