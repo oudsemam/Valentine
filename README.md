@@ -1,4 +1,4 @@
-# WIC Valentines<br/>
+# ♥ 💖 WIC Valentines 💖♥ <br/>
 Learn some HTML/CSS commands while making a cute ecard! <br/>
 
 ____________________________________________________________________________________
@@ -33,6 +33,7 @@ CSS is a language that describes the style of HTML
 
 https://www.w3schools.com/css/
 
+Also, within the valentineHTML file, there are have links to w3school pages that corespond to the functions used in the file.
 ____________________________________________________________________________________
 ## Changing the look of your HTML file with CSS: <br/>
 
