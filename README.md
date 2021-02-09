@@ -1,6 +1,5 @@
-# ♥ 💖 WIC Valentines 💖♥ <br/>
+#  💖 WIC Valentines 💖 <br/>
 Learn some HTML/CSS commands while making a cute ecard! <br/>
-
 ____________________________________________________________________________________
 ## To Start:<br/>
 
@@ -24,8 +23,9 @@ Eventually we will be able to turn this mediocre e-card to something like below:
 Before we begin it will be helpful to look at what HTML and CSS is.
 ____________________________________________________________________________________
 ##### HTML:
+HTML is a sandard markup langauge to create web pages
 
-
+https://www.w3schools.com/html/html_intro.asp
 ____________________________________________________________________________________
 #####  CSS: 
 
@@ -33,7 +33,6 @@ CSS is a language that describes the style of HTML
 
 https://www.w3schools.com/css/
 
-Also, within the valentineHTML file, there are have links to w3school pages that corespond to the functions used in the file.
 ____________________________________________________________________________________
 ## Changing the look of your HTML file with CSS: <br/>
 
@@ -63,18 +62,24 @@ In this background class:
 ``` 
 - Font Size: changes the font size of your text
 - color: will change the color of your text (not highlighted in the above example)
-- text-align: 
-- margin-left:
+- text-align: makes the words center, left indented, or right indented
+- margin-left: gives 60px margin to the left of the text
 
 ##### Resizing images/pictures:
 
-You might notice that when you change the text of your card, you get a transtition like below: </br>
+You might notice that when you change the text of your card,the text will get out of wack.
+The reason this happens is because currently in our title class, we have hard-coded where the title should go. To prevent this from happening we should make out title card *dyanmic*, meaning it will change as the card dimenisons or text changes. </br>
 
-- image 
 
+```
+ .title {
+        font-size: 55px;
+        margin-left: 60px;
+        text-align: center;
+    }
+```
 
-The reason this happens is because currently in our title class, we have hard-coded where the title should go. To prevent this from happening we should make out title card dyanmic, meaning it will change as the card dimenisons or text changes. </br>
-
+Currently we hardcoded margin-left to 60px, based 
 
 ##### Images:
 ```
@@ -87,23 +92,24 @@ The reason this happens is because currently in our title class, we have hard-co
 
 ``` 
 
-- description 
+Here we are provding an image to have a width of 200px, and be indented 250px from the left. 
 
 
 ##### Button:
 
-- description 
+The button can be used for a variety of things, most common use of a button on a website would be to open to new pages. 
 
 ```
  <div class="button" onclick="alert('Hello world!')">Click Me! </div>
 ```
 
+In our valentine, it will be used as a "pop up" to print out a suprise message for the reciever of your valentine. <br/>
 ____________________________________________________________________________________
 ## This isn't all! <br/>
 To find out how to change more items on your card go to  https://www.w3schools.com/! 
 There is a lot of helpful tools and examples of how these tools work on this webstie :)
 ____________________________________________________________________________________
-Last Update: Feb 13, 2020
+Last Update: Feb 9, 2021
 
 
 
