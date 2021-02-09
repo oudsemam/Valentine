@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<!-- 
+    WIC HTML/CSS Fundamentals
+
+Great source for HTML syntax 
+https://www.w3schools.com/html/default.asp
+
+
+
+https://www.w3schools.com/css/css_boxmodel.asp
+Content - 
+Padding - 
+Border - 
+Margin -
+
+
+
+Div:  
+span: 
+
+
+class:
+id:
+
+-->
+
+<style>
+    /*Backgroud colors
+    https://www.w3schools.com/cssref/pr_background-color.asp*/
+    .background {
+        position: relative;
+        background-color: rgb(236, 203, 226);
+        border: 10px solid black;
+        width: 700px;
+        height: 700px;
+    }
+
+    /*Title card
+    https://www.w3schools.com/html/html_formatting.asp*/
+    .title {
+        font-size: 55px;
+        margin-left: 60px;
+        text-align: center;
+    }
+
+
+    /*Ceter an image
+    https://www.w3schools.com/howto/howto_css_image_center.asp*/
+    .picture {
+        margin-left: 250px;
+        width: 200px;
+    }
+
+
+    /*Heart emoticon
+    https://www.w3schools.com/html/html_symbols.asp*/
+    .heart {
+        position: absolute;
+        display: inline-block;
+        font-size: 300%;
+        padding-bottom: 10px;
+    }
+
+
+    .text {
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+
+    .title {
+
+    }
+
+    /*Am I a class or an ID? Why?*/
+    Mail {
+
+    }
+
+
+    .button {
+        text-align: center;
+    }
+
+</style>
+
+<div class="background">
+
+    <body>
+
+        <h1 class="Mail"> To: </h1>
+        <h1 class="Mail"> From: </h1>
+
+
+        <h1 class="title">Title!</h1>
+
+
+        <span class='heart'>&#9829</span>
+
+
+        <img src="https://miro.medium.com/max/2028/1*FugbGxi_jnARy2YbIRPlrQ.png" class="picture">
+
+
+        <div class="text">Message!</div>
+
+
+        <!-- /*https://www.w3schools.com/tags/tag_button.asp*/-->
+
+        <div class="button" onclick="alert('Hello world!')">Click Me! </div>
+
+    </body>
+</div>
+
+</html>
